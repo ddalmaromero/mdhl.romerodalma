@@ -1,84 +1,163 @@
 * {
-    margin : 0;
-    padding : 0;
-    box-sizing : border-box;
-    font-family : 'Comic Neue', cursive;
-    }
-    header {
-    margin-left : 10%;
-    }
-    .hero {
-    height : 300px;
-    width : 80%;
-    margin-top : 50px;
-    }
-    .headvar {
-    position : absolute;
-    }
-    h1 {
-    display : inline-block;
-    margin-top : 3px;
-    margin-left : 70px;
-    }
-    nav {
-    position : relative;
-    left : 35%;
-    top : 15px;
-    display : inline;
-    }
-    nav a {
-    background-color : blue;
-    padding : 4px;
-    color : white;
-    text-decoration : none;
-    border : rgb(0, 0, 0, 0.644) solid 1px;
-    box-shadow : 2px 2px rgb(0, 0, 0, 0.644);
-    }
-    .selected {
-    background-color : green;
-    }
-    main {
-    font-size : 80%;
-     }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
 
-    .logo {
-    width : 150px;
-    vertical-align : middle;
-    margin-top : 50px;
-    margin-left : 120px;
-    float : left;
-    }
-    .line {
-    text-decoration : underline;
-    }
-    div {
-    position : relative;
-    left : 5%;
-    }
-    .titular {
-        background-color: black;
-        height: 40px;
-        width: 72%;
-        position: relative;
-        left: 10%;  
-    }
-    h2{
-        text-align: center;
-        color: white;
-        padding-top: 7px;
-       position: relative;
-       left: -15%;
-    }
-    article{
-        margin-top: 35px;
-        position: relative;
-        width: 58%;
-        left: 3%;
-        display: inline-block;
-        margin-bottom: 50px;
-    }
-    .contact{
-        left: 15%;
-        top: 30px;
-        font-size: 18px;
-    }
+header {
+    margin-left: 10%;
+}
+
+.hero {
+    height: 300px;
+    width: 80%;
+    left: -20vw;
+}
+
+.headvar {
+    position: relative;
+    text-align: 1px;
+}
+
+h1 {
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+nav {
+    position: relative;
+    top: 10px;
+    right: 40px;
+    display: inline;
+
+}
+
+nav a {
+    background-color: rgb(201, 43, 43);
+    padding: 4px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 2px 2px white;
+}
+
+.selected {
+    background-color: green;
+}
+
+main {
+    font-size: 80%;
+}
+
+.logo {
+    width: 150px;
+    vertical-align: middle;
+    margin-top: 50px;
+    margin-left: 120px;
+    float: left;
+}
+
+.line {
+    text-decoration: underline;
+}
+
+div {
+    position: relative;
+    left: 5%;
+}
+
+.titular {
+    background-color: black;
+    height: 40px;
+    width: 72%;
+    position: relative;
+    left: 10%;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    padding-top: 7px;
+    position: relative;
+    left: -15%;
+}
+
+.article {
+    margin-top: 35px;
+    position: relative;
+    width: 58%;
+    left: 3%;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.fotos{
+    display: flex;
+    justify-content:space-evenly;
+    width: 60%;
+    margin-left: 150px;
+}
+.fotos img{
+    height: 150px;
+    border: 2px solid black;
+}
+
+.contact {
+    left: 15%;
+    top: 30px;
+    font-size: 18px;
+}
+
+.items {
+    list-style-type: lower-alpha;
+}
+
+.play {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.playdos{
+    left: -39%;
+}
+
+.player {
+    display: flex;
+    font-size: 14px;
+    color: black;
+    margin-left: 13%;
+}
+ol{
+    margin-left: 18px;
+}
+
+.subtitle {
+    margin-top: -30px;
+    font-size: 18px;
+    margin-bottom: 7px;
+    margin-left: 50px;
+}
+h3{
+    font-size: 17px;
+}
+.subrayar{
+    text-decoration:underline;
+}
+td, th{
+    width: 150px;
+    text-align: center;
+    border:2px solid black ;
+}
+span{
+    font-weight: bold;
+}
+.ultimo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+}
+
