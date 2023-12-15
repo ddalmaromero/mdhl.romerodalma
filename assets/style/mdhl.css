@@ -17,7 +17,6 @@ header {
 
 .headvar {
     position: relative;
-    text-align: 1px;
 }
 
 h1 {
@@ -59,9 +58,9 @@ main {
     float: left;
 }
 
-.line {
+.line{
     text-decoration: underline;
-}
+    }
 
 div {
     position: relative;
@@ -85,79 +84,131 @@ h2 {
 }
 
 .article {
-    margin-top: 35px;
     position: relative;
-    width: 58%;
-    left: 3%;
-    display: inline-block;
-    margin-bottom: 50px;
+    height: 40vw;
+    width: 80%;
+    margin-top: 35px;
+    left: 20px;
+}
+.online{
+   position: relative;
+   text-align: justify;
+    height: 30vw;
+    width: 80%;
+    margin-top: 30px;
+    
 }
 
-.fotos{
+.fotos {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     width: 60%;
     margin-left: 150px;
 }
-.fotos img{
+
+.fotos img {
     height: 150px;
     border: 2px solid black;
 }
 
-.contact {
-    left: 15%;
-    top: 30px;
-    font-size: 18px;
+div> p{
+    padding-top: 20px;
+    position: relative;
+    left: 50px;
+    font-size: 20px;
 }
 
 .items {
     list-style-type: lower-alpha;
 }
 
-.play {
+.play{
     font-size: 14px;
     color: black;
-    font-weight: bold;
-    margin-left: 15px;
-}
-.playdos{
-    left: -39%;
+    font-weight: bold;}
+
+h3{
+position: relative;  
+left: -2%;  
 }
 
-.player {
+.player{
     display: flex;
     font-size: 14px;
     color: black;
-    margin-left: 13%;
+    font-weight:bold;
 }
+
 ol{
     margin-left: 18px;
 }
 
-.subtitle {
-    margin-top: -30px;
+div> h3{
+    margin-top: 30px;
+}
+div> p{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.subtitle{
     font-size: 18px;
-    margin-bottom: 7px;
-    margin-left: 50px;
-}
-h3{
-    font-size: 17px;
-}
-.subrayar{
-    text-decoration:underline;
-}
-td, th{
-    width: 150px;
-    text-align: center;
-    border:2px solid black ;
-}
-span{
-    font-weight: bold;
-}
-.ultimo{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction:column;
+    margin-bottom: 10px;
+    margin-left: 45px;
+    text-decoration: underline;
 }
 
+.subrayar {
+    text-decoration: underline;
+}
+
+td,
+th {
+    width: 150px;
+    text-align: center;
+    border: 2px solid black;
+}
+.punto{
+   margin-left: 40px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.ultimo {
+  display: flex;
+  flex-direction: column;
+  width: 80%; 
+}
+
+form{
+    width: 60%;
+    height: 80vw;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+p, .grafit{
+    font-weight:bolder;
+}
+
+.content{
+    margin-top: 20px;
+}
+
+.text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 12px;
+}
+td>iframe{
+    width: 250px;
+    height: 250px;
+}
